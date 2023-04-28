@@ -13,3 +13,12 @@ MOVE= download folder  for download station, if it's an shared folder just input
 USERNAME= your nas login username
 PASS= your nas login password
 ```
+
+## start 
+
+`node src/index.js`
+
+Then forward message from freecourseweb channel to your telegram bot.
+
+QNAP downloadstation well start download automatically.
+
