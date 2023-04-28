@@ -11,7 +11,7 @@ PORT= your qnap nas port
 TEMP= temp folder for download station, if it's an shared folder just input the name like `mooc`
 MOVE= download folder  for download station, if it's an shared folder just input the name like `mooc`
 USERNAME= your nas login username
-PASS= your nas login password
+PASSWORD= your nas login password
 ```
 
 ## start 
