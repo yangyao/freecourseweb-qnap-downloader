@@ -33,4 +33,5 @@ bot.on('message', async (msg) => {
         console.error(err);
         bot.sendMessage(msg.chat.id, `Failed to add to the download queue in Download Station. ${url}`);
     }
+    bot.deleteMessage(msg.chat.id, msg.message_id);
 });
